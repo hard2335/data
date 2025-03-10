@@ -1,0 +1,10 @@
+pip install kagglehub
+
+import kagglehub
+kagglehub.login()
+import kagglehub
+
+# Download latest version
+path = kagglehub.dataset_download("catherinerasgaitis/mxmh-survey-results")
+
+print("Path to dataset files:", path)
